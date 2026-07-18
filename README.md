@@ -19,6 +19,7 @@ none perform any destructive or persistent action.
 | [GHSA-p34x-fmph-9fjx](GHSA-p34x-fmph-9fjx-flyto-core/) | flyto-core | Arbitrary file write via unguarded data.*/file.* modules (in (CWE-22) | Critical | ✅ runnable |
 | [GHSA-9vx2-j98c-p72w](GHSA-9vx2-j98c-p72w-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
+| [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
 | [GHSA-cppp-g98f-gfpp](GHSA-cppp-g98f-gfpp-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
 | [CVE-2026-62989](CVE-2026-62989-shopper/) | shopper | Missing authorization on product variant DeleteAction/Delete (CWE-285/CWE-862) | High | 📄 write-up |

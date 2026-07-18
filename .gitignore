@@ -4,3 +4,8 @@
 **/webpack-dev-server/
 **/node_modules/
 **/dist/
+# PoC build artifacts (downloaded jars / compiled classes)
+**/poc/lib/
+**/*.class
+# generator intermediate
+_index_rows.md
