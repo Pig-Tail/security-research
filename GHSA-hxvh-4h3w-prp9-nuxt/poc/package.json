@@ -1,0 +1,8 @@
+{
+  "name": "ghsa-hxvh-4h3w-prp9-poc",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "PoC for Nuxt route-rule mixed-case bypass (incomplete fix of CVE-2026-53721 / GHSA-mm7m-92g8-7m47)",
+  "dependencies": { "radix3": "1.1.2" }
+}

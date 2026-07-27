@@ -29,6 +29,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
+| [GHSA-hxvh-4h3w-prp9](GHSA-hxvh-4h3w-prp9-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
 | [GHSA-cppp-g98f-gfpp](GHSA-cppp-g98f-gfpp-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
