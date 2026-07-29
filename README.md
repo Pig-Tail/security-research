@@ -43,8 +43,8 @@ none perform any destructive or persistent action.
 | [CVE-2026-48728](CVE-2026-48728-glpi-inventory-plugin/) | glpi-inventory-plugin | Job enumeration and status manipulation on Deploy, Collect,  (CWE-306) | Medium | 📄 write-up |
 | [CVE-2026-63432](CVE-2026-63432-horilla-hr/) | horilla-hr | Server-Side Template Injection (SSTI) in Mail Preview Endpoi (CWE-94/CWE-200) | Medium | 📄 write-up |
 | [CVE-2026-59249](CVE-2026-59249-mint/) | mint | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign to (CWE-444) | Medium | 📄 write-up |
-| [GHSA-4jc5-g844-4x33](GHSA-4jc5-g844-4x33-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
-| [GHSA-96fx-pqc3-28xv](GHSA-96fx-pqc3-28xv-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
+| [CVE-2026-67435](CVE-2026-67435-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
+| [CVE-2026-67436](CVE-2026-67436-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-62373](CVE-2026-62373-opendj/) | opendj | OpenDJ JMX MBean-argument deserialization without a serial f (CWE-502) | Medium | 📄 write-up |
 | [CVE-2026-63505](CVE-2026-63505-probo/) | probo | Cross-tenant IDOR via unvalidated FK references (CWE-639) | Medium | ✅ runnable |
 | [CVE-2026-64662](CVE-2026-64662-statamic/) | statamic | Missing authorization on navigation endpoint allows disclosu (CWE-639/CWE-862) | Medium | 📄 write-up |
@@ -58,7 +58,7 @@ none perform any destructive or persistent action.
 | [GHSA-vwv6-85p7-mjvc](GHSA-vwv6-85p7-mjvc-glpi-agent/) | glpi-agent | Oracle inventory module uses unvalidated process username in (CWE-78) | Low | 📄 write-up |
 | [GHSA-mgcf-xgv7-5w4x](GHSA-mgcf-xgv7-5w4x-glpi-agent/) | glpi-agent | Collect task compiles server-controlled regular expression w (CWE-1333) | Low | 📄 write-up |
 | [GHSA-cwg9-jj5m-pq4q](GHSA-cwg9-jj5m-pq4q-glpi-agent/) | glpi-agent | Stored XSS via SNMP community/authprotocol credential fields (CWE-79) | Low | 📄 write-up |
-| [GHSA-w2gg-hx6w-24w3](GHSA-w2gg-hx6w-24w3-monitoring-plugins/) | monitoring-plugins | Symlink following in logfile legacy database migration (CWE-59/CWE-367) | Low | ✅ runnable |
+| [CVE-2026-67433](CVE-2026-67433-monitoring-plugins/) | monitoring-plugins | Symlink following in logfile legacy database migration (CWE-59/CWE-367) | Low | ✅ runnable |
 | [GHSA-m5p8-h274-f7w8](GHSA-m5p8-h274-f7w8-openproject/) | openproject | Content Security Policy img-src wildcard enables cross-origi (CWE-200) | Low | 📄 write-up |
 | [GHSA-22xj-f767-ppw6](GHSA-22xj-f767-ppw6-probo/) | probo | Broken access control in public e-signature API: any trust-c (CWE-639/CWE-862) | Low | 📄 write-up |
 | [GHSA-w23w-f7v2-625w](GHSA-w23w-f7v2-625w-probo/) | probo | Unauthenticated cross-tenant and hidden-item disclosure via  (CWE-284/CWE-639) | Low | 📄 write-up |
