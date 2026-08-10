@@ -29,10 +29,13 @@ none perform any destructive or persistent action.
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
-| [GHSA-hxvh-4h3w-prp9](GHSA-hxvh-4h3w-prp9-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
+| [CVE-2026-71315](CVE-2026-71315-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
+| [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
 | [GHSA-cppp-g98f-gfpp](GHSA-cppp-g98f-gfpp-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
+| [GHSA-fj3w-533r-fvf6](GHSA-fj3w-533r-fvf6-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
+| [GHSA-r7hw-jx6r-756g](GHSA-r7hw-jx6r-756g-saml2/) | saml2 | Incomplete fix of CVE-2026-49283: unsigned embedded Response (CWE-287/CWE-347) | High | ✅ runnable |
 | [CVE-2026-62989](CVE-2026-62989-shopper/) | shopper | Missing authorization on product variant DeleteAction/Delete (CWE-285/CWE-862) | High | 📄 write-up |
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
