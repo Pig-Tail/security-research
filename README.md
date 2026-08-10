@@ -17,6 +17,9 @@ none perform any destructive or persistent action.
 |:--|:--|:--|:--|:--|
 | [GHSA-f5m5-jfmq-ghpx](GHSA-f5m5-jfmq-ghpx-NetCoreToolService/) | SteeltoeOSS/NetCoreToolService | Unauthenticated RCE via argument injection into 'dotnet new' (CWE-88) | Critical | ✅ runnable |
 | [GHSA-p34x-fmph-9fjx](GHSA-p34x-fmph-9fjx-flyto-core/) | flyto-core | Arbitrary file write via unguarded data.*/file.* modules (in (CWE-22) | Critical | ✅ runnable |
+| [GHSA-7833-fr7j-v32q](GHSA-7833-fr7j-v32q-GitPython/) | GitPython | Arbitrary local file content disclosure via [include] direct (CWE-73/CWE-200) | High | ✅ runnable |
+| [GHSA-284h-m62q-gf8w](GHSA-284h-m62q-gf8w-GitPython/) | GitPython | Dormant multi-line git-config values are corrupted into live (CWE-88/CWE-94) | High | ✅ runnable |
+| [GHSA-8mcc-hrx5-hvxc](GHSA-8mcc-hrx5-hvxc-GitPython/) | GitPython | clone_from()/clone() omit --separate-git-dir from unsafe_git (CWE-22/CWE-73) | High | ✅ runnable |
 | [CVE-2026-62263](CVE-2026-62263-OpenAM/) | OpenAM | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilt (CWE-502) | High | 📄 write-up |
 | [CVE-2026-53626](CVE-2026-53626-glpi/) | glpi | Arbitrary document read (CWE-639/CWE-862) | High | 📄 write-up |
 | [CVE-2026-49285](CVE-2026-49285-glpi-agent/) | glpi-agent | OS Command Injection in GLPI Agent ToolBox Results export vi (CWE-78) | High | 📄 write-up |
@@ -65,7 +68,6 @@ none perform any destructive or persistent action.
 | [GHSA-m5p8-h274-f7w8](GHSA-m5p8-h274-f7w8-openproject/) | openproject | Content Security Policy img-src wildcard enables cross-origi (CWE-200) | Low | 📄 write-up |
 | [GHSA-22xj-f767-ppw6](GHSA-22xj-f767-ppw6-probo/) | probo | Broken access control in public e-signature API: any trust-c (CWE-639/CWE-862) | Low | 📄 write-up |
 | [GHSA-w23w-f7v2-625w](GHSA-w23w-f7v2-625w-probo/) | probo | Unauthenticated cross-tenant and hidden-item disclosure via  (CWE-284/CWE-639) | Low | 📄 write-up |
-
 More entries are added here as their advisories are published by each vendor. Findings still under
 coordinated-disclosure embargo (advisory in draft, CVE reserved but not yet public) are deliberately
 **not** included until the vendor publishes.
