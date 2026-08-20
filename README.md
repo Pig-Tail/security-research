@@ -22,13 +22,14 @@ none perform any destructive or persistent action.
 | [GHSA-8mcc-hrx5-hvxc](GHSA-8mcc-hrx5-hvxc-GitPython/) | GitPython | clone_from()/clone() omit --separate-git-dir from unsafe_git (CWE-22/CWE-73) | High | ✅ runnable |
 | [CVE-2026-62263](CVE-2026-62263-OpenAM/) | OpenAM | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilt (CWE-502) | High | 📄 write-up |
 | [CVE-2026-53626](CVE-2026-53626-glpi/) | glpi | Arbitrary document read (CWE-639/CWE-862) | High | 📄 write-up |
+| [CVE-2026-75606](CVE-2026-75606-egroupware/) | egroupware | Authenticated SQL injection via col_filter string-key in Base (CWE-89) | High | ✅ runnable |
 | [CVE-2026-49285](CVE-2026-49285-glpi-agent/) | glpi-agent | OS Command Injection in GLPI Agent ToolBox Results export vi (CWE-78) | High | 📄 write-up |
 | [CVE-2026-52764](CVE-2026-52764-glpi-agent/) | glpi-agent | MSSQL inventory module executes OS commands with unsanitized (CWE-78) | High | 📄 write-up |
 | [CVE-2026-45621](CVE-2026-45621-glpi-agent/) | glpi-agent | MongoDB inventory module allows JavaScript injection via une (CWE-94/CWE-116) | High | 📄 write-up |
 | [CVE-2026-46615](CVE-2026-46615-glpi-agent/) | glpi-agent | Database inventory modules execute OS commands with unsaniti (CWE-78) | High | 📄 write-up |
 | [CVE-2026-40936](CVE-2026-40936-glpi-agent/) | glpi-agent | ToolBox plugin can allow unauthenticated path traversal lead (CWE-22/CWE-73) | High | 📄 write-up |
 | [CVE-2026-48730](CVE-2026-48730-glpi-inventory-plugin/) | glpi-inventory-plugin | Reflected XSS (CWE-79) | High | 📄 write-up |
-| [GHSA-9vx2-j98c-p72w](GHSA-9vx2-j98c-p72w-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
+| [CVE-2026-75594](CVE-2026-75594-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
@@ -36,12 +37,13 @@ none perform any destructive or persistent action.
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
 | [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
-| [GHSA-cppp-g98f-gfpp](GHSA-cppp-g98f-gfpp-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
+| [CVE-2026-76079](CVE-2026-76079-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
 | [GHSA-fj3w-533r-fvf6](GHSA-fj3w-533r-fvf6-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
 | [GHSA-r7hw-jx6r-756g](GHSA-r7hw-jx6r-756g-saml2/) | saml2 | Incomplete fix of CVE-2026-49283: unsigned embedded Response (CWE-287/CWE-347) | High | ✅ runnable |
 | [CVE-2026-62989](CVE-2026-62989-shopper/) | shopper | Missing authorization on product variant DeleteAction/Delete (CWE-285/CWE-862) | High | 📄 write-up |
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
+| [CVE-2026-75609](CVE-2026-75609-egroupware/) | egroupware | Post-authentication open redirect via login.php phpgw_forwa (CWE-601) | Medium | ✅ runnable |
 | [GHSA-6pm8-6f34-9v3g](GHSA-6pm8-6f34-9v3g-flyto-core/) | flyto-core | SSRF guard bypass via DNS rebinding (validate_url_ssrf resol (CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-52768](CVE-2026-52768-glpi-agent/) | glpi-agent | Deploy task Path Traversal in Tools::Archive (CWE-22/CWE-23) | Medium | ✅ runnable |
 | [CVE-2026-52765](CVE-2026-52765-glpi-agent/) | glpi-agent | Oracle and DB2 inventory modules allow SQL injection in GLPI (CWE-89) | Medium | 📄 write-up |
@@ -66,8 +68,8 @@ none perform any destructive or persistent action.
 | [GHSA-cwg9-jj5m-pq4q](GHSA-cwg9-jj5m-pq4q-glpi-agent/) | glpi-agent | Stored XSS via SNMP community/authprotocol credential fields (CWE-79) | Low | 📄 write-up |
 | [CVE-2026-67433](CVE-2026-67433-monitoring-plugins/) | monitoring-plugins | Symlink following in logfile legacy database migration (CWE-59/CWE-367) | Low | ✅ runnable |
 | [GHSA-m5p8-h274-f7w8](GHSA-m5p8-h274-f7w8-openproject/) | openproject | Content Security Policy img-src wildcard enables cross-origi (CWE-200) | Low | 📄 write-up |
-| [GHSA-22xj-f767-ppw6](GHSA-22xj-f767-ppw6-probo/) | probo | Broken access control in public e-signature API: any trust-c (CWE-639/CWE-862) | Low | 📄 write-up |
-| [GHSA-w23w-f7v2-625w](GHSA-w23w-f7v2-625w-probo/) | probo | Unauthenticated cross-tenant and hidden-item disclosure via  (CWE-284/CWE-639) | Low | 📄 write-up |
+| [CVE-2026-76078](CVE-2026-76078-probo/) | probo | Broken access control in public e-signature API: any trust-c (CWE-639/CWE-862) | Low | 📄 write-up |
+| [CVE-2026-76080](CVE-2026-76080-probo/) | probo | Unauthenticated cross-tenant and hidden-item disclosure via  (CWE-284/CWE-639) | Low | 📄 write-up |
 More entries are added here as their advisories are published by each vendor. Findings still under
 coordinated-disclosure embargo (advisory in draft, CVE reserved but not yet public) are deliberately
 **not** included until the vendor publishes.
