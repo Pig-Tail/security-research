@@ -12,3 +12,4 @@ _index_rows.md
 
 # embargoed staging folder — do NOT publish until advisory public
 GHSA-q366-cv5v-83w8-openemr/
+**/__pycache__/

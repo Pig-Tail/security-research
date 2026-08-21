@@ -32,6 +32,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-75594](CVE-2026-75594-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
 | [CVE-2026-77437](CVE-2026-77437-kiwitcms/) | kiwitcms | ORM lookup-injection in RPC *.filter methods leaks bug-track (CWE-943/CWE-200) | High | ✅ runnable |
 | [CVE-2026-77435](CVE-2026-77435-kiwitcms/) | kiwitcms | Authenticated SSRF via Bug.details API method (CWE-918/CWE-697) | High | ✅ runnable |
+| [CVE-2026-58229](CVE-2026-58229-mint/) | mint | Unbounded HTTP/1 response-header and chunked-trailer accumul (CWE-770) | High | ✅ runnable |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
@@ -56,6 +57,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-67435](CVE-2026-67435-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-67436](CVE-2026-67436-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-62373](CVE-2026-62373-opendj/) | opendj | OpenDJ JMX MBean-argument deserialization without a serial f (CWE-502) | Medium | 📄 write-up |
+| [CVE-2026-73616](CVE-2026-73616-openremote/) | openremote | Notification delete crosses realm boundaries (CWE-639/CWE-862) | Medium | ✅ runnable |
 | [CVE-2026-63505](CVE-2026-63505-probo/) | probo | Cross-tenant IDOR via unvalidated FK references (CWE-639) | Medium | ✅ runnable |
 | [CVE-2026-64662](CVE-2026-64662-statamic/) | statamic | Missing authorization on navigation endpoint allows disclosu (CWE-639/CWE-862) | Medium | 📄 write-up |
 | [GHSA-h5rg-8p7f-47g2](GHSA-h5rg-8p7f-47g2-surrealdb/) | surrealdb | SSRF via JWKS URL — Redirect Following in JWT Key Fetch (CWE-918) | Medium | 📄 write-up |
