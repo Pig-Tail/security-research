@@ -16,7 +16,7 @@ none perform any destructive or persistent action.
 | CVE / Advisory | Project | Class (CWE) | Severity | PoC |
 |:--|:--|:--|:--|:--|
 | [GHSA-f5m5-jfmq-ghpx](GHSA-f5m5-jfmq-ghpx-NetCoreToolService/) | SteeltoeOSS/NetCoreToolService | Unauthenticated RCE via argument injection into 'dotnet new' (CWE-88) | Critical | ✅ runnable |
-| [GHSA-p34x-fmph-9fjx](GHSA-p34x-fmph-9fjx-flyto-core/) | flyto-core | Arbitrary file write via unguarded data.*/file.* modules (in (CWE-22) | Critical | ✅ runnable |
+| [CVE-2026-77312](CVE-2026-77312-flyto-core/) | flyto-core | Arbitrary file write via unguarded data.*/file.* modules (in (CWE-22) | Critical | ✅ runnable |
 | [GHSA-7833-fr7j-v32q](GHSA-7833-fr7j-v32q-GitPython/) | GitPython | Arbitrary local file content disclosure via [include] direct (CWE-73/CWE-200) | High | ✅ runnable |
 | [GHSA-284h-m62q-gf8w](GHSA-284h-m62q-gf8w-GitPython/) | GitPython | Dormant multi-line git-config values are corrupted into live (CWE-88/CWE-94) | High | ✅ runnable |
 | [GHSA-8mcc-hrx5-hvxc](GHSA-8mcc-hrx5-hvxc-GitPython/) | GitPython | clone_from()/clone() omit --separate-git-dir from unsafe_git (CWE-22/CWE-73) | High | ✅ runnable |
@@ -30,6 +30,8 @@ none perform any destructive or persistent action.
 | [CVE-2026-40936](CVE-2026-40936-glpi-agent/) | glpi-agent | ToolBox plugin can allow unauthenticated path traversal lead (CWE-22/CWE-73) | High | 📄 write-up |
 | [CVE-2026-48730](CVE-2026-48730-glpi-inventory-plugin/) | glpi-inventory-plugin | Reflected XSS (CWE-79) | High | 📄 write-up |
 | [CVE-2026-75594](CVE-2026-75594-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
+| [CVE-2026-77437](CVE-2026-77437-kiwitcms/) | kiwitcms | ORM lookup-injection in RPC *.filter methods leaks bug-track (CWE-943/CWE-200) | High | ✅ runnable |
+| [CVE-2026-77435](CVE-2026-77435-kiwitcms/) | kiwitcms | Authenticated SSRF via Bug.details API method (CWE-918/CWE-697) | High | ✅ runnable |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
@@ -44,7 +46,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
 | [CVE-2026-75609](CVE-2026-75609-egroupware/) | egroupware | Post-authentication open redirect via login.php phpgw_forwa (CWE-601) | Medium | ✅ runnable |
-| [GHSA-6pm8-6f34-9v3g](GHSA-6pm8-6f34-9v3g-flyto-core/) | flyto-core | SSRF guard bypass via DNS rebinding (validate_url_ssrf resol (CWE-918) | Medium | ✅ runnable |
+| [CVE-2026-77316](CVE-2026-77316-flyto-core/) | flyto-core | SSRF guard bypass via DNS rebinding (validate_url_ssrf resol (CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-52768](CVE-2026-52768-glpi-agent/) | glpi-agent | Deploy task Path Traversal in Tools::Archive (CWE-22/CWE-23) | Medium | ✅ runnable |
 | [CVE-2026-52765](CVE-2026-52765-glpi-agent/) | glpi-agent | Oracle and DB2 inventory modules allow SQL injection in GLPI (CWE-89) | Medium | 📄 write-up |
 | [CVE-2026-42187](CVE-2026-42187-glpi-agent/) | glpi-agent | Proxy plugin can allow arbitrary file write if `local_store` (CWE-22) | Medium | 📄 write-up |
