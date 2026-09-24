@@ -23,6 +23,8 @@ none perform any destructive or persistent action.
 | [CVE-2026-62263](CVE-2026-62263-OpenAM/) | OpenAM | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilt (CWE-502) | High | 📄 write-up |
 | [CVE-2026-53626](CVE-2026-53626-glpi/) | glpi | Arbitrary document read (CWE-639/CWE-862) | High | 📄 write-up |
 | [CVE-2026-75606](CVE-2026-75606-egroupware/) | egroupware | Authenticated SQL injection via col_filter string-key in Base (CWE-89) | High | ✅ runnable |
+| [CVE-2026-93537](CVE-2026-93537-fleet/) | fleet | Path traversal in Helm valuesFiles reads outside the bundle (CWE-22/CWE-200) | High | 📄 write-up |
+| [CVE-2026-93538](CVE-2026-93538-fleet/) | fleet | Cross-tenant BundleDeployment/Secret disclosure via spoofed (CWE-290/CWE-639/CWE-863) | High | 📄 write-up |
 | [CVE-2026-49285](CVE-2026-49285-glpi-agent/) | glpi-agent | OS Command Injection in GLPI Agent ToolBox Results export vi (CWE-78) | High | 📄 write-up |
 | [CVE-2026-52764](CVE-2026-52764-glpi-agent/) | glpi-agent | MSSQL inventory module executes OS commands with unsanitized (CWE-78) | High | 📄 write-up |
 | [CVE-2026-45621](CVE-2026-45621-glpi-agent/) | glpi-agent | MongoDB inventory module allows JavaScript injection via une (CWE-94/CWE-116) | High | 📄 write-up |
@@ -48,6 +50,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
 | [CVE-2026-75609](CVE-2026-75609-egroupware/) | egroupware | Post-authentication open redirect via login.php phpgw_forwa (CWE-601) | Medium | ✅ runnable |
+| [CVE-2026-93539](CVE-2026-93539-fleet/) | fleet | Unauthenticated GitRepo spec mutation via git webhook recei (CWE-306/CWE-862) | Medium | 📄 write-up |
 | [CVE-2026-77316](CVE-2026-77316-flyto-core/) | flyto-core | SSRF guard bypass via DNS rebinding (validate_url_ssrf resol (CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-52768](CVE-2026-52768-glpi-agent/) | glpi-agent | Deploy task Path Traversal in Tools::Archive (CWE-22/CWE-23) | Medium | ✅ runnable |
 | [CVE-2026-52765](CVE-2026-52765-glpi-agent/) | glpi-agent | Oracle and DB2 inventory modules allow SQL injection in GLPI (CWE-89) | Medium | 📄 write-up |
