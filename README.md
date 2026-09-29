@@ -43,7 +43,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
 | [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
 | [CVE-2026-76079](CVE-2026-76079-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
-| [GHSA-fj3w-533r-fvf6](GHSA-fj3w-533r-fvf6-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
+| [CVE-2026-100414](CVE-2026-100414-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
 | [GHSA-r7hw-jx6r-756g](GHSA-r7hw-jx6r-756g-saml2/) | saml2 | Incomplete fix of CVE-2026-49283: unsigned embedded Response (CWE-287/CWE-347) | High | ✅ runnable |
 | [CVE-2026-62989](CVE-2026-62989-shopper/) | shopper | Missing authorization on product variant DeleteAction/Delete (CWE-285/CWE-862) | High | 📄 write-up |
 | [CVE-2026-86043](CVE-2026-86043-skipper/) | skipper | OPA body-authz bypass: truncated_body mitigation fails ope (CWE-863) | High | ✅ runnable |
