@@ -39,6 +39,8 @@ none perform any destructive or persistent action.
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
 | [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
 | [CVE-2026-71315](CVE-2026-71315-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
+| [GHSA-6crf-vqpj-hvr4](GHSA-6crf-vqpj-hvr4-opencti/) | opencti | Unauthenticated resource exhaustion via pre-auth TAXII (CWE-400) | High | 📄 write-up |
+| [GHSA-w3h6-4frq-fgm7](GHSA-w3h6-4frq-fgm7-opencti/) | opencti | SSRF via response-controlled pagination URL in ingestion (CWE-918/CWE-295) | High | 📄 write-up |
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
 | [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
@@ -60,6 +62,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-59249](CVE-2026-59249-mint/) | mint | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign to (CWE-444) | Medium | 📄 write-up |
 | [CVE-2026-67435](CVE-2026-67435-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-67436](CVE-2026-67436-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
+| [GHSA-j2p5-vc4m-xxhx](GHSA-j2p5-vc4m-xxhx-opencti/) | opencti | Read-only user can delete other users' draft workspaces (CWE-285/CWE-269) | Medium | 📄 write-up |
 | [CVE-2026-62373](CVE-2026-62373-opendj/) | opendj | OpenDJ JMX MBean-argument deserialization without a serial f (CWE-502) | Medium | 📄 write-up |
 | [CVE-2026-103020](CVE-2026-103020-openemr/) | openemr | Unauthenticated DB name/version disclosure via admin.php (CWE-200/CWE-306) | Medium | 📄 write-up |
 | [CVE-2026-73616](CVE-2026-73616-openremote/) | openremote | Notification delete crosses realm boundaries (CWE-639/CWE-862) | Medium | ✅ runnable |
