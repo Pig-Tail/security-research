@@ -61,6 +61,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-67435](CVE-2026-67435-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-67436](CVE-2026-67436-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
 | [CVE-2026-62373](CVE-2026-62373-opendj/) | opendj | OpenDJ JMX MBean-argument deserialization without a serial f (CWE-502) | Medium | 📄 write-up |
+| [CVE-2026-103020](CVE-2026-103020-openemr/) | openemr | Unauthenticated DB name/version disclosure via admin.php (CWE-200/CWE-306) | Medium | 📄 write-up |
 | [CVE-2026-73616](CVE-2026-73616-openremote/) | openremote | Notification delete crosses realm boundaries (CWE-639/CWE-862) | Medium | ✅ runnable |
 | [CVE-2026-102836](CVE-2026-102836-pheditor/) | pheditor | MAIN_DIR confinement bypass via check_path() prefix match (CWE-22/CWE-706) | Medium | ✅ runnable |
 | [CVE-2026-63505](CVE-2026-63505-probo/) | probo | Cross-tenant IDOR via unvalidated FK references (CWE-639) | Medium | ✅ runnable |
