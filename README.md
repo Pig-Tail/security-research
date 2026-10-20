@@ -15,16 +15,21 @@ none perform any destructive or persistent action.
 
 | CVE / Advisory | Project | Class (CWE) | Severity | PoC |
 |:--|:--|:--|:--|:--|
+| [CVE-2026-78676](CVE-2026-78676-GitPython/) | GitPython | Dormant multi-line git-config values are corrupted into live (CWE-88/CWE-94) | Critical | ✅ runnable |
 | [GHSA-f5m5-jfmq-ghpx](GHSA-f5m5-jfmq-ghpx-NetCoreToolService/) | SteeltoeOSS/NetCoreToolService | Unauthenticated RCE via argument injection into 'dotnet new' (CWE-88) | Critical | ✅ runnable |
+| [CVE-2026-73854](CVE-2026-73854-egroupware/) | egroupware | Authorization bypass via api./about. menuaction prefix → pri (CWE-863/CWE-306) | Critical | ✅ runnable |
 | [CVE-2026-77312](CVE-2026-77312-flyto-core/) | flyto-core | Arbitrary file write via unguarded data.*/file.* modules (in (CWE-22) | Critical | ✅ runnable |
-| [GHSA-7833-fr7j-v32q](GHSA-7833-fr7j-v32q-GitPython/) | GitPython | Arbitrary local file content disclosure via [include] direct (CWE-73/CWE-200) | High | ✅ runnable |
-| [GHSA-284h-m62q-gf8w](GHSA-284h-m62q-gf8w-GitPython/) | GitPython | Dormant multi-line git-config values are corrupted into live (CWE-88/CWE-94) | High | ✅ runnable |
-| [GHSA-8mcc-hrx5-hvxc](GHSA-8mcc-hrx5-hvxc-GitPython/) | GitPython | clone_from()/clone() omit --separate-git-dir from unsafe_git (CWE-22/CWE-73) | High | ✅ runnable |
+| [CVE-2026-78675](CVE-2026-78675-GitPython/) | GitPython | Arbitrary local file content disclosure via [include] direct (CWE-73/CWE-200) | High | ✅ runnable |
+| [CVE-2026-78677](CVE-2026-78677-GitPython/) | GitPython | clone_from()/clone() omit --separate-git-dir from unsafe_git (CWE-22/CWE-73) | High | ✅ runnable |
 | [CVE-2026-62263](CVE-2026-62263-OpenAM/) | OpenAM | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilt (CWE-502) | High | 📄 write-up |
-| [CVE-2026-53626](CVE-2026-53626-glpi/) | glpi | Arbitrary document read (CWE-639/CWE-862) | High | 📄 write-up |
 | [CVE-2026-75606](CVE-2026-75606-egroupware/) | egroupware | Authenticated SQL injection via col_filter string-key in Base (CWE-89) | High | ✅ runnable |
+| [CVE-2026-71859](CVE-2026-71859-egroupware/) | egroupware | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name( (CWE-95/CWE-94) | High | ✅ runnable |
 | [CVE-2026-93537](CVE-2026-93537-fleet/) | fleet | Path traversal in Helm valuesFiles reads outside the bundle (CWE-22/CWE-200) | High | 📄 write-up |
 | [CVE-2026-93538](CVE-2026-93538-fleet/) | fleet | Cross-tenant BundleDeployment/Secret disclosure via spoofed (CWE-290/CWE-639/CWE-863) | High | 📄 write-up |
+| [CVE-2026-76086](CVE-2026-76086-formie/) | formie | Integration form-settings action allows SSRF and exfiltratio (CWE-862/CWE-915/CWE-918) | High | 📄 write-up |
+| [CVE-2026-76087](CVE-2026-76087-formie/) | formie | Unauthenticated users can overwrite incomplete submissions v (CWE-639/CWE-862) | High | 📄 write-up |
+| [CVE-2026-76089](CVE-2026-76089-formie/) | formie | Missing authorization on sent notification resend modal expo (CWE-200/CWE-639/CWE-862) | High | 📄 write-up |
+| [CVE-2026-53626](CVE-2026-53626-glpi/) | glpi | Arbitrary document read (CWE-639/CWE-862) | High | 📄 write-up |
 | [CVE-2026-49285](CVE-2026-49285-glpi-agent/) | glpi-agent | OS Command Injection in GLPI Agent ToolBox Results export vi (CWE-78) | High | 📄 write-up |
 | [CVE-2026-52764](CVE-2026-52764-glpi-agent/) | glpi-agent | MSSQL inventory module executes OS commands with unsanitized (CWE-78) | High | 📄 write-up |
 | [CVE-2026-45621](CVE-2026-45621-glpi-agent/) | glpi-agent | MongoDB inventory module allows JavaScript injection via une (CWE-94/CWE-116) | High | 📄 write-up |
@@ -37,18 +42,21 @@ none perform any destructive or persistent action.
 | [CVE-2026-58229](CVE-2026-58229-mint/) | mint | Unbounded HTTP/1 response-header and chunked-trailer accumul (CWE-770) | High | ✅ runnable |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
-| [GHSA-p6gq-j5cr-w38f](GHSA-p6gq-j5cr-w38f-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
+| [CVE-2026-82659](CVE-2026-82659-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
 | [CVE-2026-71315](CVE-2026-71315-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
 | [GHSA-6crf-vqpj-hvr4](GHSA-6crf-vqpj-hvr4-opencti/) | opencti | Unauthenticated resource exhaustion via pre-auth TAXII (CWE-400) | High | 📄 write-up |
 | [GHSA-w3h6-4frq-fgm7](GHSA-w3h6-4frq-fgm7-opencti/) | opencti | SSRF via response-controlled pagination URL in ingestion (CWE-918/CWE-295) | High | 📄 write-up |
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
+| [CVE-2026-97391](CVE-2026-97391-pheditor/) | pheditor | Terminal command-allowlist bypass via argument injection lea (CWE-78/CWE-88) | High | 📄 write-up |
 | [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
 | [CVE-2026-76079](CVE-2026-76079-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
 | [CVE-2026-100414](CVE-2026-100414-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
-| [GHSA-r7hw-jx6r-756g](GHSA-r7hw-jx6r-756g-saml2/) | saml2 | Incomplete fix of CVE-2026-49283: unsigned embedded Response (CWE-287/CWE-347) | High | ✅ runnable |
+| [CVE-2026-71404](CVE-2026-71404-rancher/) | rancher | Unauthorized ClusterRole overwrite via GlobalRole cr-name an (CWE-639) | High | 📄 write-up |
+| [CVE-2026-110782](CVE-2026-110782-saml2/) | saml2 | Incomplete fix of CVE-2026-49283: unsigned embedded Response (CWE-287/CWE-347) | High | ✅ runnable |
 | [CVE-2026-62989](CVE-2026-62989-shopper/) | shopper | Missing authorization on product variant DeleteAction/Delete (CWE-285/CWE-862) | High | 📄 write-up |
 | [CVE-2026-86043](CVE-2026-86043-skipper/) | skipper | OPA body-authz bypass: truncated_body mitigation fails ope (CWE-863) | High | ✅ runnable |
+| [CVE-2026-71537](CVE-2026-71537-Paymenter/) | Paymenter | Credit-refund double-spend race condition in service downgra (CWE-362) | Medium | 📄 write-up |
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
 | [CVE-2026-75609](CVE-2026-75609-egroupware/) | egroupware | Post-authentication open redirect via login.php phpgw_forwa (CWE-601) | Medium | ✅ runnable |
@@ -68,10 +76,12 @@ none perform any destructive or persistent action.
 | [CVE-2026-73616](CVE-2026-73616-openremote/) | openremote | Notification delete crosses realm boundaries (CWE-639/CWE-862) | Medium | ✅ runnable |
 | [CVE-2026-102836](CVE-2026-102836-pheditor/) | pheditor | MAIN_DIR confinement bypass via check_path() prefix match (CWE-22/CWE-706) | Medium | ✅ runnable |
 | [CVE-2026-63505](CVE-2026-63505-probo/) | probo | Cross-tenant IDOR via unvalidated FK references (CWE-639) | Medium | ✅ runnable |
+| [GHSA-9fx8-47w4-3vw8](GHSA-9fx8-47w4-3vw8-probo/) | probo | Stored XSS in the console via unsanitized Markdown (iframe sr (CWE-79/CWE-693) | Medium | ✅ runnable |
 | [CVE-2026-64662](CVE-2026-64662-statamic/) | statamic | Missing authorization on navigation endpoint allows disclosu (CWE-639/CWE-862) | Medium | 📄 write-up |
-| [GHSA-h5rg-8p7f-47g2](GHSA-h5rg-8p7f-47g2-surrealdb/) | surrealdb | SSRF via JWKS URL — Redirect Following in JWT Key Fetch (CWE-918) | Medium | 📄 write-up |
+| [CVE-2026-63744](CVE-2026-63744-surrealdb/) | surrealdb | SSRF via JWKS URL — Redirect Following in JWT Key Fetch (CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-54764](CVE-2026-54764-traefik/) | traefik | ForwardAuth middleware leaks X-Forwarded-Port spoofing via u (CWE-345) | Medium | 📄 write-up |
 | [CVE-2026-14620](CVE-2026-14620-webpack-dev-server/) | webpack-dev-server | webpack-dev-server vulnerable to cross-site request forgery  (CWE-352/CWE-749) | Medium | ✅ runnable |
+| [CVE-2026-89134](CVE-2026-89134-wolfssl/) | wolfssl | Subject CN name-constraint check bypassed when a non-DNS SAN (CWE-295) | Medium | 📄 write-up |
 | [CVE-2026-55780](CVE-2026-55780-NanaZip/) | NanaZip | Uncaught exception / unbounded allocation in NanaZip .NET si (CWE-248/CWE-400) | Low | 📄 write-up |
 | [CVE-2026-55781](CVE-2026-55781-NanaZip/) | NanaZip | Unbounded memory allocation (DoS) in NanaZip UFS parser via  (CWE-400/CWE-789) | Low | 📄 write-up |
 | [CVE-2026-55782](CVE-2026-55782-NanaZip/) | NanaZip | Unbounded memory allocation (DoS) in NanaZip WebAssembly par (CWE-400/CWE-789) | Low | 📄 write-up |
