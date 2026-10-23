@@ -70,6 +70,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-59249](CVE-2026-59249-mint/) | mint | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign to (CWE-444) | Medium | 📄 write-up |
 | [CVE-2026-67435](CVE-2026-67435-monitoring-plugins/) | monitoring-plugins | fetch() forwards credential headers across a cross-origin re (CWE-200/CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-67436](CVE-2026-67436-monitoring-plugins/) | monitoring-plugins | SSRF and auth-token disclosure via unvalidated @odata.id lin (CWE-20/CWE-200/CWE-918) | Medium | ✅ runnable |
+| [CVE-2026-104258](CVE-2026-104258-opencti/) | opencti | SSRF via webhook notifier allows authenticated users to reac (CWE-918) | Medium | 📄 write-up |
 | [GHSA-j2p5-vc4m-xxhx](GHSA-j2p5-vc4m-xxhx-opencti/) | opencti | Read-only user can delete other users' draft workspaces (CWE-285/CWE-269) | Medium | 📄 write-up |
 | [CVE-2026-62373](CVE-2026-62373-opendj/) | opendj | OpenDJ JMX MBean-argument deserialization without a serial f (CWE-502) | Medium | 📄 write-up |
 | [CVE-2026-103020](CVE-2026-103020-openemr/) | openemr | Unauthenticated DB name/version disclosure via admin.php (CWE-200/CWE-306) | Medium | 📄 write-up |
