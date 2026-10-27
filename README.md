@@ -49,6 +49,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-62375](CVE-2026-62375-opendj/) | opendj | OpenDJ Unbounded VLV offset array allocation → memory-exhaus (CWE-190/CWE-770/CWE-789) | High | 📄 write-up |
 | [CVE-2026-62366](CVE-2026-62366-opendj/) | opendj | OpenDJ Unauthenticated stack exhaustion when decoding an LDA (CWE-400/CWE-674) | High | 📄 write-up |
 | [CVE-2026-97391](CVE-2026-97391-pheditor/) | pheditor | Terminal command-allowlist bypass via argument injection lea (CWE-78/CWE-88) | High | 📄 write-up |
+| [CVE-2026-115894](CVE-2026-115894-pimcore/) | pimcore | Incomplete Twig sandbox hardening exposes admin password has (CWE-693/CWE-1336) | High | 📄 write-up |
 | [GHSA-r9mf-88r7-g6j9](GHSA-r9mf-88r7-g6j9-probo/) | probo | Account takeover via OIDC login: the continue redirect hands (CWE-384/CWE-601) | High | ✅ runnable |
 | [CVE-2026-76079](CVE-2026-76079-probo/) | probo | Vertical privilege escalation: an organization ADMIN can min (CWE-269/CWE-863) | High | ✅ runnable |
 | [CVE-2026-100414](CVE-2026-100414-python-statemachine/) | python-statemachine | SCXML <data src="file://…"> reads arbitrary local files when (CWE-22/CWE-200) | High | ✅ runnable |
