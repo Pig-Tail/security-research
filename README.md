@@ -61,6 +61,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-54697](CVE-2026-54697-cbssh/) | cbssh | Excessive allocation and integer overflow in DER private-key (CWE-190/CWE-789) | Medium | 📄 write-up |
 | [CVE-2026-55422](CVE-2026-55422-conda-forge/) | conda-forge | Stored DOM XSS on conda-forge.org via unsanitized dangerousl (CWE-79) | Medium | 📄 write-up |
 | [CVE-2026-116695](CVE-2026-116695-crass/) | crass | Incorrect tokenization of bad URLs enables CSS sanitizer byp (CWE-436) | Medium | ✅ runnable |
+| [GHSA-pfv7-m2fh-6g4v](GHSA-pfv7-m2fh-6g4v-crate/) | crate | SSRF via COPY FROM http(s) URLs reachable by any low-privile (CWE-918) | Medium | 📄 write-up |
 | [CVE-2026-75609](CVE-2026-75609-egroupware/) | egroupware | Post-authentication open redirect via login.php phpgw_forwa (CWE-601) | Medium | ✅ runnable |
 | [CVE-2026-93539](CVE-2026-93539-fleet/) | fleet | Unauthenticated GitRepo spec mutation via git webhook recei (CWE-306/CWE-862) | Medium | 📄 write-up |
 | [CVE-2026-77316](CVE-2026-77316-flyto-core/) | flyto-core | SSRF guard bypass via DNS rebinding (validate_url_ssrf resol (CWE-918) | Medium | ✅ runnable |
