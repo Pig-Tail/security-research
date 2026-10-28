@@ -93,6 +93,7 @@ none perform any destructive or persistent action.
 | [GHSA-mgcf-xgv7-5w4x](GHSA-mgcf-xgv7-5w4x-glpi-agent/) | glpi-agent | Collect task compiles server-controlled regular expression w (CWE-1333) | Low | 📄 write-up |
 | [GHSA-cwg9-jj5m-pq4q](GHSA-cwg9-jj5m-pq4q-glpi-agent/) | glpi-agent | Stored XSS via SNMP community/authprotocol credential fields (CWE-79) | Low | 📄 write-up |
 | [CVE-2026-67433](CVE-2026-67433-monitoring-plugins/) | monitoring-plugins | Symlink following in logfile legacy database migration (CWE-59/CWE-367) | Low | ✅ runnable |
+| [GHSA-wc2f-fvpv-c32r](GHSA-wc2f-fvpv-c32r-openemr/) | openemr | Active Debug Code in fax_view.php Discloses Web Server Group (CWE-200/CWE-489) | Low | 📄 write-up |
 | [GHSA-m5p8-h274-f7w8](GHSA-m5p8-h274-f7w8-openproject/) | openproject | Content Security Policy img-src wildcard enables cross-origi (CWE-200) | Low | 📄 write-up |
 | [CVE-2026-76078](CVE-2026-76078-probo/) | probo | Broken access control in public e-signature API: any trust-c (CWE-639/CWE-862) | Low | 📄 write-up |
 | [CVE-2026-76080](CVE-2026-76080-probo/) | probo | Unauthenticated cross-tenant and hidden-item disclosure via  (CWE-284/CWE-639) | Low | 📄 write-up |
