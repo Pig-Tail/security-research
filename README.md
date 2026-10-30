@@ -26,6 +26,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-71859](CVE-2026-71859-egroupware/) | egroupware | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name( (CWE-95/CWE-94) | High | ✅ runnable |
 | [CVE-2026-93537](CVE-2026-93537-fleet/) | fleet | Path traversal in Helm valuesFiles reads outside the bundle (CWE-22/CWE-200) | High | 📄 write-up |
 | [CVE-2026-93538](CVE-2026-93538-fleet/) | fleet | Cross-tenant BundleDeployment/Secret disclosure via spoofed (CWE-290/CWE-639/CWE-863) | High | 📄 write-up |
+| [CVE-2026-104615](CVE-2026-104615-fleet/) | fleet | Cluster identity takeover in Fleet cluster registration allo (CWE-290/CWE-639/CWE-863) | High | 📄 write-up |
 | [CVE-2026-76086](CVE-2026-76086-formie/) | formie | Integration form-settings action allows SSRF and exfiltratio (CWE-862/CWE-915/CWE-918) | High | 📄 write-up |
 | [CVE-2026-76087](CVE-2026-76087-formie/) | formie | Unauthenticated users can overwrite incomplete submissions v (CWE-639/CWE-862) | High | 📄 write-up |
 | [CVE-2026-76089](CVE-2026-76089-formie/) | formie | Missing authorization on sent notification resend modal expo (CWE-200/CWE-639/CWE-862) | High | 📄 write-up |
@@ -35,6 +36,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-45621](CVE-2026-45621-glpi-agent/) | glpi-agent | MongoDB inventory module allows JavaScript injection via une (CWE-94/CWE-116) | High | 📄 write-up |
 | [CVE-2026-46615](CVE-2026-46615-glpi-agent/) | glpi-agent | Database inventory modules execute OS commands with unsaniti (CWE-78) | High | 📄 write-up |
 | [CVE-2026-40936](CVE-2026-40936-glpi-agent/) | glpi-agent | ToolBox plugin can allow unauthenticated path traversal lead (CWE-22/CWE-73) | High | 📄 write-up |
+| [GHSA-q2j6-54g3-jhcj](GHSA-q2j6-54g3-jhcj-glpi-agent/) | glpi-agent | MySQL client option-file injection via unsanitized server-su (CWE-74/CWE-94) | High | 📄 write-up |
 | [CVE-2026-48730](CVE-2026-48730-glpi-inventory-plugin/) | glpi-inventory-plugin | Reflected XSS (CWE-79) | High | 📄 write-up |
 | [CVE-2026-75594](CVE-2026-75594-kirby/) | kirby | Access to image files and limited access to JSON files outsi (CWE-22) | High | 📄 write-up |
 | [CVE-2026-77437](CVE-2026-77437-kiwitcms/) | kiwitcms | ORM lookup-injection in RPC *.filter methods leaks bug-track (CWE-943/CWE-200) | High | ✅ runnable |
