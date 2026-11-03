@@ -44,6 +44,7 @@ none perform any destructive or persistent action.
 | [CVE-2026-58229](CVE-2026-58229-mint/) | mint | Unbounded HTTP/1 response-header and chunked-trailer accumul (CWE-770) | High | ✅ runnable |
 | [CVE-2026-61699](CVE-2026-61699-nebula-mesh/) | nebula-mesh | Certificate revocation is never enforced at the mesh: nebula (CWE-299/CWE-672) | High | 📄 write-up |
 | [CVE-2026-63202](CVE-2026-63202-netty-incubator-codec-ohttp/) | netty-incubator-codec-ohttp | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via inf (CWE-400/CWE-835) | High | ✅ runnable |
+| [GHSA-xjxh-mq5w-mpq6](GHSA-xjxh-mq5w-mpq6-nocodb/) | nocodb | Shared View Row Filter Bypass via Primary Key Lookup (CWE-639/CWE-863) | High | 📄 write-up |
 | [CVE-2026-82659](CVE-2026-82659-nodemailer/) | nodemailer | Message-level raw option bypasses disableFileAccess/disableU (CWE-73/CWE-918) | High | ✅ runnable |
 | [CVE-2026-71315](CVE-2026-71315-nuxt/) | nuxt | Nuxt route rules silently dropped for mixed-case paths, bypa (CWE-178/CWE-863) | High | ✅ runnable |
 | [GHSA-6crf-vqpj-hvr4](GHSA-6crf-vqpj-hvr4-opencti/) | opencti | Unauthenticated resource exhaustion via pre-auth TAXII (CWE-400) | High | 📄 write-up |
